@@ -7,6 +7,6 @@ public class AddTwo {
         a = Integer.parseInt(args[0]);
         b = Integer.parseInt(args[1]);
         c = a + b;
-        System.out.println( a + " + " + b + " = " + c);
+        System.out.println(a+" + "+b+" = "+c);
     }
 }

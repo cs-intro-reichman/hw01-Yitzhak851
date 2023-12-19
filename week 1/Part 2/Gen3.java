@@ -32,7 +32,6 @@ public class Gen3 {
         minNum = Integer.parseInt(args[0]);
         maxNum = Integer.parseInt(args[1]);
         
-
         Math.min(minNum, maxNum);
         System.out.println( "Use " + quarters + " quarters and " + cent + " cents");
     }
