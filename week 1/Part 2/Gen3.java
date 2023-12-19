@@ -13,12 +13,6 @@ public class Gen3 {
             arr[count] = randomNum;
             count++;
         }
-        // # Output:
-        // # A random number between minNum (inclusive) and maxNum (inclusive)
-        // Math.random() ==> [0.0, 1.0)*(154 - 54) + 54 ==> (int)[0.0, 100.0)
-        // get random num between [0-99] || [0-100)
-        // 0+54 || 2+54 ....
-        // Double - 16 numbers after the Dot(.)
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min){

@@ -1,4 +1,3 @@
-
 public class Triangle {
     public static void main(String[] args) {
         int x,y,z;
@@ -11,7 +10,6 @@ public class Triangle {
         if ( (x+y > z) && (x+z > y) && (y+z > x) ){
             triangle = true;
         }
-
         if (triangle) {
             System.out.println( x + ", " + y + ", " + z + ": "+ triangle );
         } else {
