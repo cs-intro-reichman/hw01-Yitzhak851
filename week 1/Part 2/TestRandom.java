@@ -1,4 +1,5 @@
-public class Gen3 {
+
+public class TestRandom {
     public static void main(String[] args) {
         // Declrate variables
         int maxNum, minNum, randomNum, count;
@@ -8,17 +9,18 @@ public class Gen3 {
         count = 0;
         int[] arr = new int[3];
         while (count < 3) {
-            randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
+            randomNum = (int) (Math.random() * (maxNum - minNum + 1)) + minNum;
             System.out.println(randomNum);
             arr[count] = randomNum;
             count++;
         }
         // # Output:
         // # A random number between minNum (inclusive) and maxNum (inclusive)
-        // Math.random() ==> [0.0, 1.0)*(154 - 54) + 54 ==> (int)[0.0, 100.0)
-        // get random num between [0-99] || [0-100)
+        // Math.random() ==> [0.0, 1.0)*(154 - 54 +1) + 54 ==> (int)[0.0, 101.0)
+        // get random num between [0-100] || [0-101)
         // 0+54 || 2+54 ....
         // Double - 16 numbers after the Dot(.)
+
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min){
