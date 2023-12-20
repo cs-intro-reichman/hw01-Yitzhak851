@@ -1,12 +1,10 @@
 public class GenThree {
     public static void main(String[] args) {
-        // Declrate variables
         int maxNum, minNum, randomNum, count;
-        // getting number from user
+        int[] arr = new int[3];
         minNum = Integer.parseInt(args[0]);
         maxNum = Integer.parseInt(args[1]);
         count = 0;
-        int[] arr = new int[3];
         while (count < 3) {
             randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
             System.out.println(randomNum);
