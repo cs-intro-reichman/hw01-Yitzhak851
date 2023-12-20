@@ -12,12 +12,13 @@ public class GenThreeTest {
             count++;
         }
         System.out.println();
+        // Find the x= minimum number
         int x = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] <= x){
                 x = arr[i];
             }
         }
-        System.out.print("The minimal generated number was " + min);
+        System.out.print("The minimal generated number was " + x);
     }
 }
