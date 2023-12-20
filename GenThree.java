@@ -1,4 +1,4 @@
-public class Gen3 {
+public class GenThree {
     public static void main(String[] args) {
         // Declrate variables
         int maxNum, minNum, randomNum, count;
