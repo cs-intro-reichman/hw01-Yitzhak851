@@ -1,19 +1,19 @@
+/**
+ * This class contain a "Triangle" mission.
+ * @author (Yitzhak baror)
+ * @version (20.12.2023)
+ */
 public class Triangle {
     public static void main(String[] args) {
-        int x,y,z;
-        // getting the sides length
+        // Declrate variables
+        int x, y, z;
+        // getting length of the triangle (if it's triangle)
         x = Integer.parseInt(args[0]);
         y = Integer.parseInt(args[1]);
         z = Integer.parseInt(args[2]);
-        boolean triangle = false;
-        // check the Triangle Inequality Theorem.
-        if ( (x+y > z) && (x+z > y) && (y+z > x) ){
-            triangle = true;
-        }
-        if (triangle) {
-            System.out.println( x + ", " + y + ", " + z + ": "+ triangle );
-        } else {
-            System.out.println( x + ", " + y + ", " + z + ": "+ triangle );
-        }
+        // check the "Triangle Inequality Theorem".
+        boolean isTriangle = ((x + y > z) && (x + z > y) && (y + z > x));
+        // print 
+        System.out.println(x + ", " + y + ", " + z + ": " + isTriangle);
     }
 }
