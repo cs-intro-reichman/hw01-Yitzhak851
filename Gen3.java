@@ -1,4 +1,4 @@
-public class GenThreeTest {
+public class Gen3 {
     public static void main(String[] args) {
         int maxNum, minNum, randomNum;
         int[] arr = new int[3];
@@ -13,7 +13,7 @@ public class GenThreeTest {
         int x = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] <= x){
-                
+
                 x = arr[i];
             }
         }
