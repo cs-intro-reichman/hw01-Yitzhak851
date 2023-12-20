@@ -8,7 +8,8 @@ Good luck!! 👩‍💻🧙‍♂️🚀👩‍💻🔥
     - Coins.java
     - LinearEq.java
     - Triangle.java
-    - Gen3.java
+    - GenThree.java
+    - README.md
     - **HW1Code.pdf**
 
 ### Ready, Set, Code!
