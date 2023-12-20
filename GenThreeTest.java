@@ -1,4 +1,4 @@
-public class GenThree {
+public class GenThreeTest {
     public static void main(String[] args) {
         int maxNum, minNum, randomNum, count;
         int[] arr = new int[3];
