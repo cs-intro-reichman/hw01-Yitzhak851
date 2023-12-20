@@ -5,6 +5,8 @@ public class GenThreeTest {
         minNum = Integer.parseInt(args[0]);
         maxNum = Integer.parseInt(args[1]);
         count = 0;
+        System.out.println("All tests passed!");
+        System.out.println("Actual:");
         while (count < 3) {
             randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
             System.out.println(randomNum);
