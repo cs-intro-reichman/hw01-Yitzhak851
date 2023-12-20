@@ -1,11 +1,11 @@
 public class Coins {
     public static void main(String[] args) {
-        int coins,cent, quarters;
+        int coins,cent, quarters, numOfQuarters;
         quarters = 25;
-        // getting number of cents
-        coins = Integer.parseInt(args[0]); // a = ( % java Coins 50 )
-        quarters = coins / quarters ;
+
+        coins = Integer.parseInt(args[0]);
+        numOfQuarters = coins / quarters ;
         cent = coins % quarters;
-        System.out.println( "Use " + quarters + " quarters and " + cent + " cents");
+        System.out.println( "Use " + numOfQuarters + " quarters and " + cent + " cents");
     }
 }
