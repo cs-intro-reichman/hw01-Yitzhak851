@@ -7,11 +7,10 @@ public class GenThreeTest {
         count = 0;
         while (count < 3) {
             randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
-            System.out.print(randomNum);
+            System.out.println(randomNum);
             arr[count] = randomNum;
             count++;
         }
-        System.out.println();
         // Find the x= minimum number
         int x = arr[0];
         for (int i = 0; i < arr.length; i++) {
