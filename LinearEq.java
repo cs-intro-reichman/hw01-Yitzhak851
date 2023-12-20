@@ -6,8 +6,8 @@ public class LinearEq {
         b = Double.parseDouble(args[1]); // 2
         c = Double.parseDouble(args[2]); // 1
         System.out.println( a + " * x + " + b + " = " + c );        
-        c = c-b;
-        x = c/a;
+        c = c-b; // c=-1
+        x = c/a; // x= -1/1
         System.out.println("x = " + x );
     }
 }
