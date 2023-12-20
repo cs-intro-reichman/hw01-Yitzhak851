@@ -7,16 +7,17 @@ public class GenThreeTest {
         count = 0;
         while (count < 3) {
             randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
-            System.out.println(randomNum);
+            System.out.print(randomNum);
             arr[count] = randomNum;
             count++;
         }
-        int min = arr[0];
+        System.out.println();
+        int x = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min){
-                min = arr[i];
+            if (arr[i] <= x){
+                x = arr[i];
             }
         }
-        System.out.println("The minimal generated number was " + min);
+        System.out.print("The minimal generated number was " + min);
     }
 }
