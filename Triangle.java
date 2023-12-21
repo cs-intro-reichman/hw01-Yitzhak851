@@ -1,5 +1,6 @@
 /**
  * This class contain a "Triangle" mission.
+ * 
  * @author (Yitzhak baror)
  * @version (20.12.2023)
  */
@@ -13,7 +14,7 @@ public class Triangle {
         z = Integer.parseInt(args[2]);
         // check the "Triangle Inequality Theorem".
         boolean isTriangle = ((x + y > z) && (x + z > y) && (y + z > x));
-        // print 
+        // print
         System.out.println(x + ", " + y + ", " + z + ": " + isTriangle);
     }
 }
