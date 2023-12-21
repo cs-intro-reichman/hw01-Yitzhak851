@@ -1,3 +1,8 @@
+/**
+ * This class contain a "GenThree" mission.
+ * @author (Yitzhak baror)
+ * @version (20.12.2023)
+ */
 public class GenThree {
     public static void main(String[] args) {
         int maxNum, minNum, randomNum;
