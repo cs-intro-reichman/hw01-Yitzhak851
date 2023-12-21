@@ -1,4 +1,3 @@
-6+1,35 @@
 /**
  * This class contain a "GenThree" mission.
  * 
@@ -11,7 +10,7 @@ public class GenThree {
         int[] arr = new int[3];
         minNum = Integer.parseInt(args[0]);
         maxNum = Integer.parseInt(args[1]);
-        for(int i=0; i<arr.length ; i++){
+        for (int i = 0; i < arr.length; i++) {
             randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
             System.out.println(randomNum);
             arr[i] = randomNum;
@@ -19,7 +18,7 @@ public class GenThree {
         // Find x=minimum number
         int x = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] <= x){
+            if (arr[i] <= x) {
                 x = arr[i];
             }
         }
