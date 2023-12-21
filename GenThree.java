@@ -16,7 +16,7 @@ public class GenThree {
         int[] arr = new int[3];
         // Loop that print the 3 random numbers
         for (int i = 0; i < arr.length; i++) {
-            randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
+            randomNum = (int) (Math.random() * (y - x)) + x;
             System.out.println(randomNum);
             arr[i] = randomNum;
         }
