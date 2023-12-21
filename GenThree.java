@@ -1,3 +1,4 @@
+6+1,35 @@
 /**
  * This class contain a "GenThree" mission.
  * 
@@ -6,28 +7,22 @@
  */
 public class GenThree {
     public static void main(String[] args) {
-        // Declrate variables
-        int x, y, randomNum;
-        // Getting values from the user
-        x = Integer.parseInt(args[0]);
-        y = Integer.parseInt(args[1]);
-
-        // Create array with the values of the randomNum*3
+        int maxNum, minNum, randomNum;
         int[] arr = new int[3];
-        // Loop that print the 3 random numbers
-        for (int i = 0; i < arr.length; i++) {
-            randomNum = (int) (Math.random() * (y - x)) + x;
+        minNum = Integer.parseInt(args[0]);
+        maxNum = Integer.parseInt(args[1]);
+        for(int i=0; i<arr.length ; i++){
+            randomNum = (int) (Math.random() * (maxNum - minNum)) + minNum;
             System.out.println(randomNum);
             arr[i] = randomNum;
         }
-        // Calculate the min number from the 3 random num
-        int minGeneratedNum = arr[0];
+        // Find x=minimum number
+        int x = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] <= minGeneratedNum) {
-                minGeneratedNum = arr[i];
+            if (arr[i] <= x){
+                x = arr[i];
             }
         }
-        // Print the result
         System.out.println("The minimal generated number was " + x);
     }
 }
