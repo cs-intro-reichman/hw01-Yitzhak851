@@ -7,13 +7,11 @@
 public class GenThree {
     public static void main(String[] args) {
         // Declrate variables
-        int x, y, maxNum, minNum, randomNum;
+        int x, y, randomNum;
         // Getting values from the user
         x = Integer.parseInt(args[0]);
         y = Integer.parseInt(args[1]);
-        // Calculate min && max number
-        minNum = Math.min(x, y);
-        maxNum = Math.max(x, y);
+
         // Create array with the values of the randomNum*3
         int[] arr = new int[3];
         // Loop that print the 3 random numbers
