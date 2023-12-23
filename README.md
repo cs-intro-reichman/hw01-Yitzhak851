@@ -8,10 +8,11 @@ Good luck!! 👩‍💻🧙‍♂️🚀👩‍💻🔥
 - **Files:**
     - AddTwo.java
     - Coins.java
-    - LinearEq.java
-    - Triangle.java
     - GenThree.java
-    - README.md
+    - GenThreeTest.java
     - **HW1Code.pdf**
+    - LinearEq.java
+    - README.md
+    - Triangle.java
 
 ### Ready, Set, Code!
