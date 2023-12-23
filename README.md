@@ -1,8 +1,8 @@
 # Hi and welcome to my Homework repo ! 🚀
 
 Hello everyone , 
-this 'repo' contain my first H.W,
-at the course "Intro to c.s " :)
+this 'repository' contain my first H.W,
+at the course "Intro to c.s" :)
 Good luck!! 👩‍💻🧙‍♂️🚀👩‍💻🔥
 
 - **Files:**
