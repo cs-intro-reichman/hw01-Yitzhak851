@@ -5,6 +5,10 @@
  * @version (20.12.2023)
  */
 public class AddTwo {
+    public static int calcSum(int a, int b) {
+        int c = a+b;
+        return c;
+    }
     public static void main(String[] args) {
         // Declrate variables
         int a, b, c;
@@ -12,7 +16,7 @@ public class AddTwo {
         a = Integer.parseInt(args[0]);
         b = Integer.parseInt(args[1]);
         // Calculate the result
-        c = a + b;
+        c = calcSum(a, b);
         // Print result
         System.out.println(a + " + " + b + " = " + c);
     }
