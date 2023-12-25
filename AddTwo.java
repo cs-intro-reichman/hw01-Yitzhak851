@@ -5,6 +5,7 @@
  * @version (20.12.2023)
  */
 public class AddTwo {
+    // Trying to do this mission with puonction :)
     public static int calcSum(int a, int b) {
         int c = a+b;
         return c;
